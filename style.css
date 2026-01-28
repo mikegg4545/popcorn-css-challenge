@@ -47,3 +47,17 @@ nav a:visited {
   display: inline-block;
   text-decoration: none;
 }
+
+.card {
+  background: white;
+  flex: 1;
+  text-align: center;
+  padding: 16px;
+  border: 2px solid;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
