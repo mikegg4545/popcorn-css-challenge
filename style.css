@@ -7,9 +7,7 @@ Main background - #D4A76A */
 h3 {
   color: #553100;
 }
-h5 {
-  color: #553100;
-}
+
 body {
   font: 1.2em / 1.5 sans-serif;
   background-color: #D4A76A;
@@ -19,7 +17,7 @@ header {
   /* Add styles here */
   background-color: #FFDBAA;
   /* padding: top right bottom left */
-  padding: 0px 20px 0px 20px;
+  padding: 0px 60px 15px 20px;
   /* padding-left: 20px;
   padding-right: 20px; */
   display: flex;
@@ -36,14 +34,14 @@ nav ul {
   display:flex;
   flex-direction: row;
   justify-content:space-between;
-  gap:20px;
+  gap:25px;
 }
 
 nav a:link,
 nav a:visited {
   background-color: #805215;
   color: white;
-  padding: 0.5em;
+  padding: 4px 10px 4px 10px;
   display: inline-block;
   text-decoration: none;
 }
@@ -60,4 +58,12 @@ nav a:visited {
   display: flex;
   gap: 30px;
   justify-content: space-between;
+}
+
+.about {
+  margin-top: 30px;
+  background: white;
+  text-align: center;
+  padding: 16px;
+  border: 2px solid;
 }
