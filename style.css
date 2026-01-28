@@ -4,53 +4,46 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A */
 
-
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-header{
-  background-color: #FFDBAA;
-
-}
 h3 {
   color: #553100;
 }
-
+h5 {
+  color: #553100;
+}
 body {
+  font: 1.2em / 1.5 sans-serif;
   background-color: #D4A76A;
 }
+
+header {
+  /* Add styles here */
+  background-color: #FFDBAA;
+  /* padding: top right bottom left */
+  padding: 0px 20px 0px 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav ul {
-  max-width: 500px;
+  max-width: 400px;
   list-style: none;
   padding: 0;
   margin: 0;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  gap:20px;
 }
+
 nav a:link,
 nav a:visited {
   background-color: #805215;
-
-
   color: white;
   padding: 0.5em;
   display: inline-block;
   text-decoration: none;
 }
-
-header {
-  /* Add styles here */
-padding-left: 20px;
-padding-right: 20px;
-  display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul {
-
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 20px;
-}
-
